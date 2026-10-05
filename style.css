@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+h1{
+    color: white;
+    text-decoration: underline;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+table, th, td {
+    width: 500px;
+    border: 1px dotted;
+    padding: 10px;
+    color: Black;
+    border-collapse: collapse;
+
+}
+tr:nth-child(even) {
+    background-color: darkgray;
+}
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+caption{
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+}
